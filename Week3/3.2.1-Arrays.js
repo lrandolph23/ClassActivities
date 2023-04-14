@@ -10,5 +10,6 @@ console.log(dadsDogs.length);
 let last = [dadsDogs.length - 1];
 console.log(last);
 // with for...of, loop over the Array, modify the value and add to a different Array
-for (let dog of dadsDogs);
+for (let dog of dadsDogs) {
   console.log(dog);
+}
